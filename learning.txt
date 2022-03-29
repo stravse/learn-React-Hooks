@@ -1,0 +1,13 @@
+03-29-2022
+- Learned the whole react hooks
+- Must say it is a easy to read functional components than class based components.
+-- No more using this and binding this to all class functions equals to better readibility and less verboise
+-- found out that i dont need to instal redux and can just use useReducer for managing state
+-- would like to know better about how to read and do useReducer in my projects. would like to convert most of my projects in React and use the useReducer for functional
+-- useState is the short form of state management and i dont need to always use this.setState
+-- useEffect now squashes componentWillMount, componentDidUpdate, and componentWillUnmount into one function call
+
+It is better to pair useState and useEffect to make React know which one i want to use for which state i want to listen to
+
+
+needs to learn more about useReducer
