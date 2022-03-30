@@ -11,3 +11,11 @@ It is better to pair useState and useEffect to make React know which one i want 
 
 
 needs to learn more about useReducer
+
+03/30/2022
+- Learned a whole lot about Redux and played a whole aroung with useReducer
+-- after brushing up with some concepts with redux I found out that redux might not be the best fit for the javascript-calculator project
+-- Redux just have too much stuff to write before we can go ahead and use the same thing in react
+-- however I might start and use useReducer since it might give me some practice in using redux and might find the switch to not be that binding
+-- Found out about createContext / react context and it feels like the same as a store in redux?
+-- Fount out that context makes the passing down to every component obsolete i think?
