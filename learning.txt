@@ -19,3 +19,16 @@ needs to learn more about useReducer
 -- however I might start and use useReducer since it might give me some practice in using redux and might find the switch to not be that binding
 -- Found out about createContext / react context and it feels like the same as a store in redux?
 -- Fount out that context makes the passing down to every component obsolete i think?
+
+03-31-2022
+- Learned a whole lot about React.createContext and context stuffs
+-- you need to createContext for every context you want to create
+-- you need to do MyContext.provider value{your value here} to override default when createContext was created
+-- when a component needs the data from the provider/ context then you label it as a consumber or MyContext.Consumer
+-- After learning a whole lot about redux and context everything feels a bit too complex for the JS-calculator project
+-- All this state management not passing down to the right component i want and use context or redux to use feels too complex towards my simple project that I am developing
+-- I Feel like I do have all the things I need to complete the project without using either redux or React.context
+** I should start to do javascript calculator Tomorrow
+** I think I can finish all the Logic tomorrow
+** TLDR redux and context feels right to use when there is too much passing down of props to components that i need to have predictability over fast development
+** Redux just have too much boilerplate for me to start using the state and context feels like i might not understand how things get access to state
