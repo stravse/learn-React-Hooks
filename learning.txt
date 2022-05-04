@@ -31,4 +31,17 @@ needs to learn more about useReducer
 ** I should start to do javascript calculator Tomorrow
 ** I think I can finish all the Logic tomorrow
 ** TLDR redux and context feels right to use when there is too much passing down of props to components that i need to have predictability over fast development
+
+let audioBeep = new Audio("https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav");
+
+
+const resetTime = () => {
+setSession(25*60);
+setRest(5*60);
+setStart(false);
+}
+
+
+<button id="reset" onClick={resetTime} > Reset </button>
+
 ** Redux just have too much boilerplate for me to start using the state and context feels like i might not understand how things get access to state
