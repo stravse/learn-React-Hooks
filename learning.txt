@@ -45,3 +45,5 @@ setStart(false);
 <button id="reset" onClick={resetTime} > Reset </button>
 
 ** Redux just have too much boilerplate for me to start using the state and context feels like i might not understand how things get access to state
+
+https://phptherightway.com/ free online php book to learn
